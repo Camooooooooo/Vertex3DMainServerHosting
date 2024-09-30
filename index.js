@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Wathching Vertex 3D", "Proccesing Order"];
-const statusTypes = [ 'online', 'online'];
+const statusTypes = [ 'idle', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
